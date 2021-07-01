@@ -52,7 +52,12 @@ long resta (int a,int b){
 
 }
 long multiplicacion(int a,int b){
-
+  // variables de entrada: dos int que pueden tener un valor signed o unsigned (int a, int b)
+  //variable de salida: un long que puede ser signed o unsigned
+  long c = 0;
+  //operacion: se tiene que realizar la multimiplicación de las variables de entrada, y regresar el resultado al salir de la funcion
+  c = a*b;
+  return c;
 }
 long division(int a,int b){
 
