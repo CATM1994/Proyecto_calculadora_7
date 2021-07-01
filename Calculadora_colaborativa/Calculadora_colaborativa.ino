@@ -55,5 +55,7 @@ long multiplicacion(int a,int b){
 
 }
 long division(int a,int b){
-
+  long c = 0;
+  c = ((long)(a/b));
+  return c;
 }
